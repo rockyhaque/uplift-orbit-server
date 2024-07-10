@@ -26,3 +26,13 @@ The project utilizes the following dependencies
 }
 
 ```
+
+cookie-parser
+```
+npm i cookie-parser
+```
+
+JWT
+```
+npm i jsonwebtoken
+```
