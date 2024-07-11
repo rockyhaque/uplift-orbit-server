@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 
 // middleware
 const corsOptions = {
-  origin: ["http://localhost:5173", "http://localhost:5174"],
+  origin: ["http://localhost:5173", "http://localhost:5174", "https://uplift-orbit.web.app"],
   credentials: true,
   optionSuccessStatus: 200,
 };
@@ -218,7 +218,6 @@ async function run() {
         .toArray()
       res.send(result);
     });
-
 
 
     // get all jobs data count from db
