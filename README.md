@@ -2,6 +2,12 @@
 
 This document provides a comprehensive guide to setting up and running the Uplift Orbit server. The server is built using Express and connects to a MongoDB database. It includes various API endpoints for managing job postings and bids.
 
+## Links
+
+Live URL -> https://uplift-orbit.web.app
+Server Site -> https://uplift-orbit-server.vercel.app
+
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
